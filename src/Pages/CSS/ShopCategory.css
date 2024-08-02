@@ -40,6 +40,37 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+.shopcategory-container {
+    display: flex;
+    justify-content: center;
+}
+
+.shopcategory-filters {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .shopcategory-filters button {
+    padding: 10px 20px;
+    background-color: #ff7235;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  .shopcategory-filters button:hover {
+    background-color: #fa6323;
+  }
+  
+  .shopcategory-filters button.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
 @media (max-width:1280px) {
     .shopcategory-banner{
         margin: 20px auto;
